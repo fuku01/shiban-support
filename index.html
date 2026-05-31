@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHIBAN — Support</title>
+  <style>
+    :root {
+      --bg: #F1EAD8;
+      --surface: #FBF5E6;
+      --text: #2B1F12;
+      --sub: #7A5B3B;
+      --accent: #B5894E;
+      --border: rgba(181, 137, 78, 0.4);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 32px 16px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+                   "Helvetica Neue", Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    .container {
+      max-width: 640px;
+      margin: 0 auto;
+      background: var(--surface);
+      padding: 48px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+    }
+    header { margin-bottom: 32px; border-bottom: 1px solid var(--border); padding-bottom: 24px; }
+    h1 {
+      font-family: ui-serif, Georgia, "Times New Roman", serif;
+      font-size: 32px;
+      letter-spacing: 2px;
+      margin: 0 0 8px;
+    }
+    .tagline { color: var(--sub); font-size: 14px; letter-spacing: 1px; text-transform: uppercase; }
+    h2 {
+      font-family: ui-serif, Georgia, "Times New Roman", serif;
+      font-size: 18px;
+      margin: 40px 0 12px;
+      color: var(--text);
+    }
+    p, ul { margin: 12px 0; font-size: 15px; }
+    ul { padding-left: 24px; }
+    li { margin: 8px 0; }
+    a { color: var(--accent); }
+    code {
+      background: rgba(0, 0, 0, 0.04);
+      padding: 1px 6px;
+      border-radius: 3px;
+      font-size: 13px;
+    }
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--sub);
+    }
+    @media (max-width: 600px) {
+      .container { padding: 32px 20px; }
+      h1 { font-size: 24px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>SHIBAN</h1>
+      <div class="tagline">Guitar Scales &amp; Fretboard Reference</div>
+    </header>
+
+    <section>
+      <h2>About / アプリについて</h2>
+      <p>
+        SHIBAN is a guitar scale reference application for iOS, designed for
+        guitar learners to explore pentatonic scales across all 12 keys with
+        a vintage premium aesthetic.
+      </p>
+      <p>
+        SHIBAN は、12 キーすべてのペンタトニックスケールを指板上で確認できる、
+        ギター学習者向けの iOS アプリです。
+      </p>
+    </section>
+
+    <section>
+      <h2>Contact / お問い合わせ</h2>
+      <p>
+        For questions, feedback, or support inquiries:<br>
+        ご質問・フィードバック・サポートに関するお問い合わせは:
+      </p>
+      <p>
+        <a href="mailto:piyomikan.app@gmail.com">piyomikan.app@gmail.com</a>
+      </p>
+    </section>
+
+    <section>
+      <h2>Resources / リソース</h2>
+      <ul>
+        <li><a href="./privacy/">Privacy Policy / プライバシーポリシー</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      SHIBAN — Guitar Scales &amp; Fretboard Reference<br>
+      © 2026 piyomikan. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
